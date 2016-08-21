@@ -19,4 +19,14 @@ What is the benefit of having a copy of the last known state of the remote store
 	Allows you to work offline. Also provides you a way to view the changes between online repository
 	and the local one
 	
-	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	There are other version control such as SVN that you can use, but without version control, you'd
+	need to use email or dropbox, which require a lot more work in tracking all the changes.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Whenever there's a feature that you want to add, this way the master branch stays in a working state
+	while you are working on the new feature. Small changes can probably be added directly to 
+	the master branch, but it might be better to crate a branch and use a pull request for others 
+	to review it first.
